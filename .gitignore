@@ -1,2 +1,13 @@
-feedme/dist
-feedme/node_modules
+# Packages #
+############
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# Folders #
+##############
+dist/*
+/node_modules/*
