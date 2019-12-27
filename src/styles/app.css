@@ -1,0 +1,48 @@
+/* Styles for application in CSS module format */
+
+.ingredient-search {
+    line-height: 2.5;
+    border: 1px solid #7B7473;
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-size: small;
+}
+
+.ingredient-list {
+    margin: 10px;
+    padding: 10px;
+    border: 1px dashed #7B7473;
+    border-radius: 3px;
+}
+
+.ingredient {
+    line-height: 1.5;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #7B7473;
+    color: #7B7473;
+    font-size: small;
+    width: fit-content;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.ingredient-cancel {
+    border-left: 1px solid #7B7473;
+    padding: 3px;
+}
+
+.ingredient-name {
+    padding: 3px;
+}
+
+.get-recipes {
+    background-color: dodgerblue;
+    color: #ffffff;
+    line-height: 2;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #7B7473;
+    align-content: right;
+    text-align: center;
+}

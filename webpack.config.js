@@ -17,6 +17,10 @@ module.exports = {
                 test: /\.(js|jsx|ts|tsx)$/,
                 exclude: /node_modules/,
                 use: ['babel-loader']
+            },
+            {
+                test: /\.css$/i,
+                use: ['style-loader','css-loader']
             }
         ]
     },
@@ -33,6 +37,6 @@ module.exports = {
         })
     ],
     resolve: {
-        extensions: ['.html','.wasm', '.mjs', '.json', '.js', '.jsx', '.ts', '.tsx']
+        extensions: ['.html','.css','.wasm', '.mjs', '.json', '.js', '.jsx', '.ts', '.tsx']
     }
 };
