@@ -20,8 +20,8 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: ['style-loader','css-loader']
-            }
+                use: ['style-loader', 'css-loader'],
+            },
         ]
     },
     output: {
@@ -40,3 +40,4 @@ module.exports = {
         extensions: ['.html','.css','.wasm', '.mjs', '.json', '.js', '.jsx', '.ts', '.tsx']
     }
 };
+
